@@ -31,6 +31,12 @@ namespace OrchestrationTriggerSwitch
                     case "Action2Activity":
                         await context.CallActivityAsync("Action2Activity", logger);
                         break;
+                    case "Action3Activity":
+                        await context.CallActivityAsync("Action3Activity", logger);
+                        break;
+                    case "Action4Activity":
+                        await context.CallActivityAsync("Action4Activity", logger);
+                        break;
                     case "AllActivity":
                         await context.CallActivityAsync("Action1Activity", logger);
                         await context.CallActivityAsync("Action2Activity", logger);
